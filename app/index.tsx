@@ -1,8 +1,5 @@
-import SteercodePlaceholder from "@/components/steercode-placeholder";
+import { Redirect } from "expo-router";
 
 export default function Index() {
-  return (
-    // Replace this placeholder with the app code
-    <SteercodePlaceholder />
-  );
+  return <Redirect href="/(tabs)/home" />;
 }
